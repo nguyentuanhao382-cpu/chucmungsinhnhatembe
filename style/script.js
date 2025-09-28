@@ -11,14 +11,14 @@ ageButtons.forEach(btn => {
     const selected = btn.dataset.age;
     if (selected === correctAge) {
       agePopup.innerHTML = `
-        <center><img src="/z6883211932055_3d1b696489b241dd53f71ff9f1ad423a.jpg" alt="Congrats" style="width: 140px;"/></center>
+        <center><img src="images/anhdep5.jpg" alt="Congrats" style="width: 140px;"/></center>
         <h2>em đã lựa chọn đúng rùiiii</h2>
         <p>Hỏi chơi cho zui thoii</p>
         <button class="close-btn" onclick="agePopup.classList.remove('show')">Zui zẻ hong quạo hẹ hẹ hẹ</button>
       `;
     } else {
       agePopup.innerHTML = `
-        <center><img src="/z6883211932055_3d1b696489b241dd53f71ff9f1ad423a.jpg" alt="Wrong" style="width: 120px;"/></center>
+        <center><img src="images/anhdep3.jpg" alt="Wrong" style="width: 120px;"/></center>
         <h2>Ủa là sao dị 😤</h2>
         <p>Cho em chọn lại 1 lần nữa đó!!!</p>
         <button class="close-btn" onclick="location.reload()">Em đoán lại nữa đi 🫤</button>
